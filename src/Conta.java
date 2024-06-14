@@ -34,4 +34,10 @@ public abstract class Conta {
         this.sacar(valor);
         contaDestino.depositar(valor);
     }
+    protected void imprimirExtrato() {
+        System.out.printf("| Agência: %d", this.agencia);
+        System.out.printf(" | Conta: %d", this.numero);
+        System.out.printf(" | Saldo: %.2f", this.saldo);
+        System.out.println(" |");
+    }
 }

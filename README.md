@@ -1,2 +1,2 @@
-# Banco.Banco Digital
-Banco.Banco Digital utilizando Java e Orientações a Objeto (POO)
+# Banco Digital
+Banco Digital utilizando Java e Orientações a Objeto (POO)
